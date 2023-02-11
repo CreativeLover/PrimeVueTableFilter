@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import CreateList from '../components/Favourite.vue'
+import CustomerService from '../components/DataTableFilterDemo.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'CreateList',
-    component: CreateList,
+    name: 'CustomerService',
+    component: CustomerService,
   },
 ]
 
